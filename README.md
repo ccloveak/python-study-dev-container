@@ -12,4 +12,4 @@
 使用dockerfile，定制化container 预先安装依赖
 预先安装合适的vscode插件
 
-
+1. [Sharing Git credentials with your container](https://code.visualstudio.com/remote/advancedcontainers/sharing-git-credentials)
