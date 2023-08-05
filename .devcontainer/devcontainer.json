@@ -4,6 +4,7 @@
 	"name": "Python 3",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/python:1-3.10-bullseye",
+	// issue https://github.com/csci430-os/vscode-remote-devcontainer/issues/2
 	"mounts": [
 		"source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"
 	],
@@ -12,8 +13,8 @@
 			"extensions": [
 				"eamodio.gitlens",
 				"ms-python.python",
-				"esbenp.prettier-vscode",
-				"MS-CEINTL.vscode-language-pack-zh-hans"
+				"MS-CEINTL.vscode-language-pack-zh-hans",
+				"ms-python.autopep8"
 			]
 		}
 	}
